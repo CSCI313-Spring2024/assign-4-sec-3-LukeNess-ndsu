@@ -1,0 +1,31 @@
+
+
+  .contact-card {
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: 5px 5px 10px #0a5640;
+  }
+
+  .contact-card .First-Name {
+    max-width: 360px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    user-select: none;
+  }
+ 
+  .contact-card .Phone-Number {
+    max-width: 360px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    user-select: none;
+  }
+  .contact-card .Email {
+    max-width: 360px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    user-select: none;
+  }
+
+ 

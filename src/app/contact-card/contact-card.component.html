@@ -1,0 +1,18 @@
+<div class="contact-card">
+  <div class="contact-card">
+    @for(contact of contacts; track contact.id){
+      <div>
+        <div class="card text-bg-infor">
+          <h3> {{contact.name}}</h3>
+          <h4> {{contact.phoneNumber}}</h4>
+          <h4> {{contact.emailAddress}}</h4>
+          
+          <div class="buttons">
+            <button class="btn btn-dark" [routerLink]="['/edit', contact.id]"> Edit</button>
+            <button class="btn btn-dark" (click)= "deleteContact(contact.id)" >Delete</button>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>
